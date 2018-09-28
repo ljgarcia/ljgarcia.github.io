@@ -1,20 +1,29 @@
 {
-  "@context": [
+  "@context": {
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "bs": "http://bioschemas.org/specifications/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sio": "http://semanticscience.org/resource/SIO_",
+    "pr": "http://purl.obolibrary.org/obo/PR_",
+    "so": "http://purl.obolibrary.org/obo/so#",
+    "ro": "http://purl.obolibrary.org/obo/RO_"
+  },
+  "@graph": [
     {
-      "Gene": {
-        "@id": "http://purl.obolibrary.org/obo/SO_0000704"
-      },
-      "Protein": {
-        "@id": "http://purl.obolibrary.org/obo/PR_000000001"
-      },
-      "isTranslatedFrom": {
-        "@id": "http://semanticscience.org/resource/SIO_010081",
-        "@type": "@id"
-      },
-      "associatedWith": {
-        "@id": "http://purl.obolibrary.org/obo/so#associated_with",
-        "@type": "@id"
-      }
-    }
-  ]
+      "@id": "pr:000000001",
+      "rdfs:label": "Protein"
+    },
+    {
+      "@id": "sio:010083",
+      "rdfs:label": "isTranslatedFrom"
+    },
+    {
+      "@id": "so:associated_with",
+      "rdfs:label": "associatedWith"
+    }    
 }
