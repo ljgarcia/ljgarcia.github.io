@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "Gene": {
+        "@id": "http://purl.obolibrary.org/obo/SO_0000704"
+      },
+      "Protein": {
+        "@id": "http://purl.obolibrary.org/obo/PR_000000001"
+      },
+      "isTranslatedFrom": {
+        "@id": "http://semanticscience.org/resource/SIO_010081",
+        "@type": "@id"
+      },
+      "associatedWith": {
+        "@id": "http://purl.obolibrary.org/obo/so#associated_with",
+        "@type": "@id"
+      }
+    }
+  ]
+}
