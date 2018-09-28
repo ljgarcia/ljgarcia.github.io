@@ -26,4 +26,5 @@
       "@id": "so:associated_with",
       "rdfs:label": "associatedWith"
     }    
+  ]  
 }
