@@ -1,6 +1,6 @@
 ---
 layout: null
-content-type: application/ld+json
+type: application/ld+json
 ---
 {
   "@context": [
